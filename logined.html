@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>SISI SPORT</title>
+	<link rel="manifest" href="/manifest.json">
+	<meta name="theme-color" content="white" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Sisi Sport">
+	<meta name="msapplication-TileImage" content="images/favicon_io/apple-touch-icon.png">
+	<meta name="msapplication-TileColor" content="#FFFFFF">
+
+	<link rel="shortcut icon" href="./images/favicon_io/apple-touch-icon.png">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="logo"></div>
+				<form class="navbar-form navbar-right">
+					<p class="acc-info"><span>George</span><br>balance: Kes <span>4000.00</span></p>
+					<ul class="login">
+						<li><a style="color: rgb(255, 234, 168);" href="personal-details.html">Account</a></li>
+						<li><a style="color: rgb(175, 255, 168);" href="deposit.html">Deposit</a></li>
+						<li><a style="color: rgb(255, 174, 168);" href="index.html">Log out</a></li>
+					</ul>
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<div class="header-line">
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="vside-lines col-lg-6 col-md-8 col-sm-8">
+				<div class="v-lines"></div>
+			</div>
+			<div class="vtcenter-line col-lg-12 col-md-16 col-sm-16">
+				<div class="v-lines"></div>
+			</div>
+			<div class="vside-lines bet-lines col-lg-6 col-md-24 col-sm-8">
+				<div class="vr-lines"></div>
+			</div>
+		</div>
+
+	</div>
+
+	<section class="main-content">
+
+		<div class="container">
+			<div class="row">
+				<!--The Start of Side Information-->
+				<div class="col-lg-6 col-md-8 col-sm-8">
+					<div class="side-info">
+						<h2 class="side-title">Now playing</h2>
+
+						<div class="title-line">
+							<div class="side-line"></div>
+							<div class="circle"></div>
+						</div>
+						<table class="table now-playing">
+							<tbody>
+								<tr>
+									<td>Liverpool <p>vs</p> Everton</td>
+									<td>18:00</td>
+								</tr>
+								<tr>
+									<td class="cup-name">EPL</td>
+								</tr>
+								<tr>
+									<td>Granada <p>vs</p> Cadiz fc</td>
+									<td>18:00</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Laliga</td>
+								</tr>
+								<tr>
+									<td>Fc Koln <p>vs</p> Dortmund</td>
+									<td>18:00</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Bundesliga</td>
+								</tr>
+								<tr>
+									<td>As Roma <p>vs</p> Bologna</td>
+									<td>18:00</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Seria A</td>
+								</tr>
+								<tr>
+									<td>Napoli <p>vs</p> AC Milan</td>
+									<td>18:00</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Seria A</td>
+								</tr>
+								<tr>
+									<td>Dijon Fco <p>vs</p> Rc Lens</td>
+									<td>18:00</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Ligue 1</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div class="now-playing collapse" id="playing-now">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td>Ajax <p>vs</p> AZ Alkmaar</td>
+										<td>18:00</td>
+									</tr>
+									<tr>
+										<td class="cup-name">Eredivisive</td>
+									</tr>
+									<tr>
+										<td>Tusker <p>vs</p> Mathare</td>
+										<td>18:00</td>
+									</tr>
+									<tr>
+										<td class="cup-name">Kenyan League</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</div>
+						<div class="playing-collapse" data-toggle="collapse" data-target="#playing-now">
+							<i class="fa fa-sort-down fa-lg fa-inverse" aria-hidden="true"></i>
+						</div>
+
+						<h2 class="side-title">Tournaments</h2>
+
+						<div class="title-line">
+							<div class="side-line"></div>
+							<div class="circle"></div>
+						</div>
+						<table class="table">
+							<tbody>
+								<tr>
+									<td>International</td>
+								</tr>
+								<tr>
+									<td class="cup-name">UEFA</td>
+								</tr>
+								<tr>
+									<td class="cup-name">EUROPA</td>
+								</tr>
+								<tr>
+									<td>England/Premier League</td>
+								</tr>
+								<tr>
+									<td class="cup-name">EPL</td>
+								</tr>
+								<tr>
+									<td class="cup-name">FA Cup</td>
+								</tr>
+								<tr>
+									<td>Spain/Laliga</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Super ligi</td>
+								</tr>
+
+								<tr>
+									<td>Italy/Seria A</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Coppa Italia</td>
+								</tr>
+								<tr>
+									<td>others</td>
+								</tr>
+								<tr>
+									<td class="cup-name">thier cups</td>
+								</tr>
+								<tr>
+									<td>others</td>
+								</tr>
+								<tr>
+									<td class="cup-name">thier cups</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div class="collapse" id="tournaments">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td>others</td>
+									</tr>
+									<tr>
+										<td class="cup-name">thier cups</td>
+									</tr>
+									<tr>
+										<td>others</td>
+									</tr>
+									<tr>
+										<td class="cup-name">thier cups</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="tournaments-collapse" data-toggle="collapse" data-target="#tournaments">
+							<i class="fa fa-sort-down fa-lg fa-inverse" aria-hidden="true"></i>
+						</div>
+
+						<h2 class="side-title">Top Teams</h2>
+
+						<div class="title-line">
+							<div class="side-line"></div>
+							<div class="circle"></div>
+						</div>
+						<table class="table">
+							<tbody>
+								<tr>
+									<td>Liverpool</td>
+								</tr>
+								<tr>
+									<td class="cup-name">EPL</td>
+								</tr>
+								<tr>
+									<td>Barcelona</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Laliga</td>
+								</tr>
+								<tr>
+									<td>Juventus</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Seria A</td>
+								</tr>
+								<tr>
+									<td>PSG</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Ligue 1</td>
+								</tr>
+								<tr>
+									<td>Bayern Munich</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Bundesliga</td>
+								</tr>
+								<tr>
+									<td>Real Madrid</td>
+								</tr>
+								<tr>
+									<td class="cup-name">Ligue 1</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<div class="collapse" id="teams">
+							<table class="table">
+								<tbody>
+									<tr>
+										<td>Tottenham</td>
+									</tr>
+									<tr>
+										<td class="cup-name">Epl</td>
+									</tr>
+									<tr>
+										<td>Chelsea</td>
+									</tr>
+									<tr>
+										<td class="cup-name">Epl</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+
+						<div class="teams-collapse" data-toggle="collapse" data-target="#teams">
+							<i class="fa fa-sort-down fa-lg fa-inverse" aria-hidden="true"></i>
+						</div>
+
+					</div>
+				</div>
+				<!--End of Side Information-->
+
+				<!--Start of Center-->
+				<div class="col-lg-12 col-md-16 col-sm-16">
+					<div class="player"></div>
+					<div class="vcenter-lines">
+						<div class="v-lines"></div>
+					</div>
+					<div class="center-table">
+
+						<table class="table">
+							<thead>
+								<tr>
+									<th>
+										<h2 class="center-title">England / Premier League</h2>
+									</th>
+									<th>1</th>
+									<th>X</th>
+									<th>2</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Man United <div>vs</div> Chelsea</td>
+									<br> <br>
+									<td>(1)<br><button type="button" class="btn">2.57</button></td>
+									<td>(x)<br><button type="button" class="btn">2.15</button></td>
+									<td>(2)<br><button type="button" class="btn">2.80</button></td>
+									<td><br><button type="button" color="red" class="btn-more">more</button></td>
+								</tr>
+								<tr>
+									<td>Man City <div>vs</div> Tottenham</td>
+									<br> <br>
+									<td>(1)<br><button type="button" class="btn">2.50</button></td>
+									<td>(x)<br><button type="button" class="btn">2.16</button></td>
+									<td>(2)<br><button type="button" class="btn">2.85</button></td>
+									<td><br><button type="button" color="red" class="btn-more">more</button></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table class="table">
+							<thead>
+								<tr>
+									<th>
+										<h2 class="center-title">Germany / Bundesliga</h2>
+									</th>
+									<th>1</th>
+									<th>X</th>
+									<th>2</th>
+
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Hertha <div>vs</div> Dortmund</td>
+									<br>
+									<td>(1)<br><button type="button" class="btn">2.25</button></td>
+									<td>(x)<br><button type="button" class="btn">3.05</button></td>
+									<td>(2)<br><button type="button" class="btn">1.05</button></td>
+									<td><br><button type="button" color="red" class="btn-more">more</button></td>
+								</tr>
+								<tr>
+									<td>Mainz <div>vs</div> SC Freiburg</td>
+									<br> <br>
+									<td>(1)<br><button type="button" class="btn">1.25</button></td>
+									<td>(x)<br><button type="button" class="btn">2.05</button></td>
+									<td>(2)<br><button type="button" class="btn">3.00</button></td>
+									<td><br><button type="button" color="red" class="btn-more">more</button></td>
+								</tr>
+								<tr>
+									<td>FC Koln <div>vs</div> Union Berlin</td>
+									<br> <br>
+									<td>(1)<br><button type="button" class="btn">2.05</button></button>
+									</td>
+									<td>(x)<br><button type="button" class="btn">2.25</button></td>
+									<td>(2)<br><button type="button" class="btn">2.65</button></td>
+									<td><br><button type="button" color="red" class="btn-more">more</button></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<table class="table">
+							<thead>
+								<tr>
+									<th>
+										<h2 class="center-title">Spain/Laliga</h2>
+									</th>
+									<th>1</th>
+									<th>X</th>
+									<th>2</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Eibar <div>vs</div> Getafe</td>
+									<br> <br>
+									<td>(1)<br><button type="button" class="btn">1.58</button></td>
+									<td>(x)<br><button type="button" class="btn">2.50</button></td>
+									<td>(2)<br><button type="button" class="btn">2.00</button></td>
+									<td><br><button type="button" color="red" class="btn-more">more</button></td>
+								</tr>
+								<tr>
+									<td>Granada <div>vs</div> Cadiz</td>
+									<br> <br>
+									<td>(1)<br><button type="button" class="btn">1.8</button></td>
+									<td>(x)<br><button type="button" class="btn">1.8</button></td>
+									<td>(2)<br><button type="button" class="btn">1.8</button></td>
+									<td><br><button type="button" color="red" class="btn-more">more</button></td>
+								</tr>
+								<tr>
+									<td>Alves <div>vs</div> Valencia</td>
+									<br> <br>
+									<td>(1)<br><button type="button" class="btn">1.8</button></button>
+									</td>
+									<td>(x)<br><button type="button" class="btn">1.8</button></td>
+									<td>(2)<br><button type="button" class="btn">1.8</button></td>
+									<td><br><button type="button" color="red" class="btn-more">more</button></td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
+				</div>
+				<!--End of Center-->
+
+				<<!--Start of BetSlip-->
+					<div class=" col-lg-6 col-md-24 col-sm-24">
+						<div class="calculating">
+							<ul class="nav nav-tabs">
+								<li class="active"><a href="#tab-1">Singles</a></li>
+								<li><a href="#tab-2">Doubles</a></li>
+							</ul>
+							<div class="tab-content">
+								<div id="tab-1" class="tab-pane fade in active">
+
+									<div class="singles">
+										<p>Man United</p>
+										<p><em>Match result:</em> <span class="bet-result">Man United to <span
+													class="main-color">WIN</span></span>
+										</p>
+										<p><em>Price:</em> <span class="main-color">4.5</span></p>
+									</div>
+									<div class="singles">
+										<p>Man City</p>
+										<p>Match result</p>
+										<p><em>Total kills:</em> <span class="bet-result">Down <span class="main-color">UNDER
+													45</span></span>
+										</p>
+										<p><em>Price:</em> <span class="main-color">12.5</span></p>
+									</div>
+									<div class="singles-2">
+										<form class="form-inline">
+											<label for="exampleInputName2">Total price <span class="main-color">8.325</span></label>
+											<input type="text" class="form-control" id="exampleInputName2">
+										</form>
+									</div>
+									<div class="singles">
+										<p>Total stake:<span class="main-color pull-right">10.25</span></p>
+										<p>Potentional return:<span class="main-color pull-right">10.25</span></p>
+									</div>
+									<div class="btn-group">
+										<button type="button" class="btn">Remove all</button>
+										<button type="button" class="btn" data-toggle="modal" data-target="#success-modal">Place
+											bet</button>
+									</div>
+								</div>
+								<div id="tab-2" class="tab-pane fade">
+									<h3>None Selected</h3>
+									<p>Select Doubles</p>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		</div>
+	</section>
+
+	<!--Social Section-->
+	<section class="social-icons">
+		<br>
+		<footer>
+			<div class="sm">
+				<a href="#"><em class="fab fa-facebook-f"></em></a>
+				<a href="#"><em class="fab fa-twitter"></em></a>
+				<a href="#"><em class="fab fa-instagram"></em></a>
+				<a href="#"><em class="fab fa-youtube"></em></a>
+				<a href="#"><em class="fab fa-linkedin-in"></em></a>
+				<a href="#"><em class="fab fa-behance"></em></a>
+			</div>
+		</footer>
+	</section>
+	<!--Social Section-->
+
+	<div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+		aria-hidden="true" style="display: none;">
+		<div class="modal-dialog">
+			<div class="loginmodal-container">
+				<h3>You successfully placed your bet, thanks!</h3><br>
+				<button data-dismiss="modal" class="modal-button btn-success" style="width: 60%;margin: 0 20%;">OK</button>
+			</div>
+		</div>
+	</div>
+
+	<!--Start Of Scripts-->
+	<!--PWA-->
+	<script src="js/main.js"></script>
+	<!--PWA-->
+	<!-- Tabs -->
+	<script>
+		$(document).ready(function () {
+			$(".nav-tabs a").click(function () {
+				$(this).tab('show');
+			});
+		});
+	</script>
+	<!-- Side-info toggle icon -->
+	<script>
+		$(document).ready(function () {
+			$("#playing-now").on("hide.bs.collapse", function () {
+				$(".playing-collapse").html('<i class="fa fa-sort-down fa-lg fa-inverse"></i>');
+			});
+			$("#playing-now").on("show.bs.collapse", function () {
+				$(".playing-collapse").html('<i class="fa fa-sort-asc fa-lg fa-inverse"></i>');
+			});
+		});
+		$(document).ready(function () {
+			$("#tournaments").on("hide.bs.collapse", function () {
+				$(".tournaments-collapse").html('<i class="fa fa-sort-down fa-lg fa-inverse"></i>');
+			});
+			$("#tournaments").on("show.bs.collapse", function () {
+				$(".tournaments-collapse").html('<i class="fa fa-sort-asc fa-lg fa-inverse"></i>');
+			});
+		});
+		$(document).ready(function () {
+			$("#teams").on("hide.bs.collapse", function () {
+				$(".teams-collapse").html('<i class="fa fa-sort-down fa-lg fa-inverse"></i>');
+			});
+			$("#teams").on("show.bs.collapse", function () {
+				$(".teams-collapse").html('<i class="fa fa-sort-asc fa-lg fa-inverse"></i>');
+			});
+		});
+		/*Line width*/
+		$(window).resize(function () {
+			$w = $(window).outerWidth()
+			$('.header-line').css({
+				width: $w - 60,
+				marginLeft: -($w - 60) / 2,
+				left: $w / 2
+			});
+			$('.line').css({
+				width: $w - 92
+			});
+			$('.main-content').css({
+				minHeight: $(window).outerHeight() - $('header').outerHeight()
+			});
+		});
+		$(window).resize();
+	</script>
+
+</body>
+
+</html>
