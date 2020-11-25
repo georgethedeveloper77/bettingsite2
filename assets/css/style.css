@@ -5,7 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding-top: 146px;
-  background: #1f333d;
+  background: #EAEDED;
 }
 
 /******************************************
@@ -26,7 +26,7 @@ html {
   position: relative;
   overflow-x: hidden;
   min-height: 100%;
-  background: #f5f5f5;
+  background: #eaeded;
 }
 
 h1,
@@ -223,7 +223,7 @@ a {
   width: 100%;
   height: 1px;
   margin: 30px 0;
-  background: #ddd;
+  background: #eaeded;
 }
 
 /******************************************
@@ -243,7 +243,7 @@ a {
 }
 
 .footer {
-  background-color: #f9f9f9;
+  background-color: #eaeded;
 }
 
 #wrapper {
@@ -278,7 +278,7 @@ a {
 
 .vertical-align {
   display: table-cell;
-  background: #fff;
+  background: #eaeded;
 }
 
 .vertical-align--middle {
@@ -302,7 +302,7 @@ a {
   text-align: center;
   color: #7a7676;
   border-radius: 50%;
-  background: #eff0f4;
+  background: #eaeded;
 }
 
 .btn {
@@ -322,7 +322,7 @@ a {
 
 .btn-default {
   border-color: #eee;
-  background-color: #fff;
+  background-color: #eaeded;
 }
 
 .btn-default:active,
@@ -336,7 +336,7 @@ a {
 .btn-default:active,
 .open > .dropdown-toggle.btn-default {
   border-color: #dae2ed;
-  background-color: #f7f8fa;
+  background-color: #eaeded;
 }
 
 .btn-primary {
