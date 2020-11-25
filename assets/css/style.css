@@ -1217,14 +1217,6 @@ label {
   border: none;
 }
 
-@media (min-width: 278px) and (max-width: 779px) {
-  .nav-tabs > li {
-    width: 100%;
-    margin-right: 0;
-    border-bottom: 1px solid #eee;
-  }
-}
-
 .dropcap {
   font-size: 3.1em;
 }
@@ -1792,127 +1784,6 @@ header .header-top-links {
   }
 }
 
-@media (max-width: 987px) {
-  .page-title,
-  .wrapper {
-    margin-top: 0;
-  }
-
-  .page-title {
-    padding-top: 5px;
-  }
-
-  .container {
-    width: auto;
-  }
-
-  .header {
-    box-shadow: none;
-  }
-
-  .header .navigation-menu {
-    float: none;
-    max-height: 400px;
-  }
-
-  .header .navigation-menu > li {
-    float: none;
-  }
-
-  .header .navigation-menu > li > a {
-    padding: 15px;
-    color: #212121;
-  }
-
-  .header .navigation-menu > li > a i {
-    display: inline-block;
-    margin-right: 10px;
-    margin-bottom: 0;
-  }
-
-  .header .navigation-menu > li > a:after {
-    position: absolute;
-    right: 15px;
-  }
-
-  .header .navigation-menu > li .submenu {
-    display: none;
-    margin: 0;
-    padding-left: 20px;
-    list-style: none;
-  }
-
-  .header .navigation-menu > li .submenu li a {
-    position: relative;
-    display: block;
-    padding: 7px 20px;
-    color: #212121;
-  }
-
-  .header .navigation-menu > li .submenu li a:hover,
-  .header .navigation-menu > li.has-submenu.open > a {
-    color: #6e8cd7;
-  }
-
-  .header .navigation-menu > li .submenu li.has-submenu > a:after {
-    font-family: "Material Design Iconic Font";
-    position: absolute;
-    right: 30px;
-    content: "\f1b4";
-  }
-
-  .header .navigation-menu > li .submenu.open {
-    display: block;
-  }
-
-  .header .navigation-menu > li .submenu .submenu {
-    display: none;
-    list-style: none;
-  }
-
-  .header .navigation-menu > li .submenu .submenu.open {
-    display: block;
-  }
-
-  .header .navigation-menu > li .submenu.megamenu > li > ul {
-    padding-left: 0;
-    list-style: none;
-  }
-
-  .header .navigation-menu > li .submenu.megamenu > li > ul > li > span {
-    font-size: 11px;
-    position: relative;
-    display: block;
-    padding: 15px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-  }
-
-  .header .navbar-header {
-    float: left;
-  }
-
-  #navigation {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    display: none;
-    overflow: auto;
-    width: 100%;
-    height: auto;
-    padding-bottom: 0;
-    border-top: 1px solid #e7e7e7;
-    background-color: #fff;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-      0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  }
-
-  #navigation.open {
-    display: block;
-    overflow-y: auto;
-  }
-}
-
 .coupon-block .coupon-value,
 .panel-title,
 .widget .widget-heading a {
@@ -2292,21 +2163,6 @@ a.thumbnail:hover {
   padding: 5px 0;
   border-top: 1px dashed #e7e7e7;
   background: rgba(242, 242, 247, 0.86);
-}
-
-@media (max-width: 779px) and (min-width: 277px) {
-  .coupon-wrapper {
-    text-align: center;
-  }
-
-  .savings {
-    max-width: 200px;
-    margin: 0 auto 20px;
-  }
-
-  .coupon-wrapper .btn-code {
-    margin: 15px auto;
-  }
 }
 
 .coupon-contain span.verified.text-success i {
@@ -3290,10 +3146,155 @@ button.list-group-item:hover {
   color: #7ab55c;
 }
 
+/*****    Media Quries  *******/
+/*****    Media Quries ********/
+@media (min-width: 278px) and (max-width: 779px) {
+  .nav-tabs > li {
+    width: 100%;
+    margin-right: 0;
+    border-bottom: 1px solid #eee;
+  }
+}
+@media (max-width: 987px) {
+  .page-title,
+  .wrapper {
+    margin-top: 0;
+  }
+
+  .page-title {
+    padding-top: 5px;
+  }
+
+  .container {
+    width: auto;
+  }
+
+  .header {
+    box-shadow: none;
+  }
+
+  .header .navigation-menu {
+    float: none;
+    max-height: 400px;
+  }
+
+  .header .navigation-menu > li {
+    float: none;
+  }
+
+  .header .navigation-menu > li > a {
+    padding: 15px;
+    color: #212121;
+  }
+
+  .header .navigation-menu > li > a i {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .header .navigation-menu > li > a:after {
+    position: absolute;
+    right: 15px;
+  }
+
+  .header .navigation-menu > li .submenu {
+    display: none;
+    margin: 0;
+    padding-left: 20px;
+    list-style: none;
+  }
+
+  .header .navigation-menu > li .submenu li a {
+    position: relative;
+    display: block;
+    padding: 7px 20px;
+    color: #212121;
+  }
+
+  .header .navigation-menu > li .submenu li a:hover,
+  .header .navigation-menu > li.has-submenu.open > a {
+    color: #6e8cd7;
+  }
+
+  .header .navigation-menu > li .submenu li.has-submenu > a:after {
+    font-family: "Material Design Iconic Font";
+    position: absolute;
+    right: 30px;
+    content: "\f1b4";
+  }
+
+  .header .navigation-menu > li .submenu.open {
+    display: block;
+  }
+
+  .header .navigation-menu > li .submenu .submenu {
+    display: none;
+    list-style: none;
+  }
+
+  .header .navigation-menu > li .submenu .submenu.open {
+    display: block;
+  }
+
+  .header .navigation-menu > li .submenu.megamenu > li > ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .header .navigation-menu > li .submenu.megamenu > li > ul > li > span {
+    font-size: 11px;
+    position: relative;
+    display: block;
+    padding: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .header .navbar-header {
+    float: left;
+  }
+
+  #navigation {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    display: none;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    padding-bottom: 0;
+    border-top: 1px solid #e7e7e7;
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+      0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+
+  #navigation.open {
+    display: block;
+    overflow-y: auto;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   body {
     overflow-x: hidden;
     padding-top: 65px;
+  }
+}
+
+@media (max-width: 779px) and (min-width: 277px) {
+  .coupon-wrapper {
+    text-align: center;
+  }
+
+  .savings {
+    max-width: 200px;
+    margin: 0 auto 20px;
+  }
+
+  .coupon-wrapper .btn-code {
+    margin: 15px auto;
   }
 }
 
@@ -3697,5 +3698,3 @@ a:hover {
   background-color: white;
   overflow: hidden;
 }
-
-
