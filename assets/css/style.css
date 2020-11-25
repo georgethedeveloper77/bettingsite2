@@ -5,7 +5,7 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding-top: 146px;
-  background: #EAEDED;
+  background: #eaeded;
 }
 
 /******************************************
@@ -24,7 +24,7 @@ h6 {
 
 html {
   position: relative;
-  
+
   overflow-x: hidden;
   min-height: 100%;
   background: #eaeded;
