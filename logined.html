@@ -2,563 +2,1251 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<title>SISI SPORT</title>
-	<link rel="manifest" href="/manifest.json">
-	<meta name="theme-color" content="white" />
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black">
-	<meta name="apple-mobile-web-app-title" content="Sisi Sport">
-	<meta name="msapplication-TileImage" content="images/favicon_io/apple-touch-icon.png">
-	<meta name="msapplication-TileColor" content="#FFFFFF">
+  <meta charset="utf-8" />
+  <title>Sisi Sport</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta content="" name="description" />
+  <meta content="bets" name="george" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="shortcut icon" href="/assets/images/favicon_io/apple-touch-icon.png">
+  <link rel="shortcut icon" href="/assets/images/favicon_io/favicon.ico">
 
-	<link rel="shortcut icon" href="./images/favicon_io/apple-touch-icon.png">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/animate.min.css" rel="stylesheet" type="text/css">
+  <link href="assets/css/animsition.min.css" rel="stylesheet" type="text/css">
+  <link href="owl.carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css">
+  <!-- Theme styles -->
+  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<script src="js/jquery.min.js" type="text/javascript"></script>
-	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+
+
 </head>
 
 <body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="logo"></div>
-				<form class="navbar-form navbar-right">
-					<p class="acc-info"><span>George</span><br>balance: Kes <span>4000.00</span></p>
-					<ul class="login">
-						<li><a style="color: rgb(255, 234, 168);" href="personal-details.html">Account</a></li>
-						<li><a style="color: rgb(175, 255, 168);" href="deposit.html">Deposit</a></li>
-						<li><a style="color: rgb(255, 174, 168);" href="index.html">Log out</a></li>
-					</ul>
-				</form>
-			</div>
-		</div>
-	</header>
+  <div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out"
+    style="animation-duration:300ms;">
 
-	<div class="header-line">
-		<div class="circle"></div>
-		<div class="line"></div>
-		<div class="circle"></div>
-	</div>
+    <!-- Navigation Bar-->
+    <header class="header">
+      <div class="top-nav  navbar m-b-0 b-0 navbar-dark bg-dark">
+        <div class="container">
+          <div class="row">
+            <!-- LOGO -->
+            <div class="topbar-left col-sm-3 col-xs-4">
+              <a href="index.html" class="logo"> <img src="assets/images/sisi-sport-logo.png" alt=""
+                  class="img-responsive"> </a>
+            </div>
+            <!-- End Logo container-->
+            <div class="menu-extras col-sm-9 col-xs-8">
+              <ul class="nav navbar-nav navbar-right pull-right">
+                <li>
+                  <form role="search" class="app-search pull-left hidden-xs">
+                    <div class="input-group">
+                      <input class="form-control" placeholder="Search" aria-label="Text input with multiple buttons">
+                    </div>
+                    <a href=""><em class="ti-search"></em></a>
+                  </form>
+                </li>
 
-	<div class="container">
-		<div class="row">
-			<div class="vside-lines col-lg-6 col-md-8 col-sm-8">
-				<div class="v-lines"></div>
-			</div>
-			<div class="vtcenter-line col-lg-12 col-md-16 col-sm-16">
-				<div class="v-lines"></div>
-			</div>
-			<div class="vside-lines bet-lines col-lg-6 col-md-24 col-sm-8">
-				<div class="vr-lines"></div>
-			</div>
-		</div>
+              </ul>
 
-	</div>
+              <ul class="nav navbar-nav navbar-right pull-right menu-extras col-md-2" style="padding:2px 8px;top:10px;">
+                <li class="dropdown user-box">
+                  <button class="dropdown-toggle profile btn btn-success" data-toggle="dropdown" aria-expanded="true">
+                    My account
+                  </button>
+                  <ul class="dropdown-menu" style="margin-top:9px">
+                    <li><a href="javascript:void(0)"> LogIn</a> </li>
+                    <li><a href="javascript:void(0)">Registration</a> </li>
+                    <li><a href="javascript:void(0)">Help Center </a> </li>
+                  </ul>
+                </li>
+              </ul>
 
-	<section class="main-content">
+              <div class="menu-item">
 
-		<div class="container">
-			<div class="row">
-				<!--The Start of Side Information-->
-				<div class="col-lg-6 col-md-8 col-sm-8">
-					<div class="side-info">
-						<h2 class="side-title">Now playing</h2>
+                <!-- Mobile menu toggle-->
+                <a class="navbar-toggle">
+                  <div class="lines"> <span></span> <span></span> <span></span> </div>
+                </a>
+                <!-- End mobile menu toggle-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-						<div class="title-line">
-							<div class="side-line"></div>
-							<div class="circle"></div>
-						</div>
-						<table class="table now-playing">
-							<tbody>
-								<tr>
-									<td>Liverpool <p>vs</p> Everton</td>
-									<td>18:00</td>
-								</tr>
-								<tr>
-									<td class="cup-name">EPL</td>
-								</tr>
-								<tr>
-									<td>Granada <p>vs</p> Cadiz fc</td>
-									<td>18:00</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Laliga</td>
-								</tr>
-								<tr>
-									<td>Fc Koln <p>vs</p> Dortmund</td>
-									<td>18:00</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Bundesliga</td>
-								</tr>
-								<tr>
-									<td>As Roma <p>vs</p> Bologna</td>
-									<td>18:00</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Seria A</td>
-								</tr>
-								<tr>
-									<td>Napoli <p>vs</p> AC Milan</td>
-									<td>18:00</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Seria A</td>
-								</tr>
-								<tr>
-									<td>Dijon Fco <p>vs</p> Rc Lens</td>
-									<td>18:00</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Ligue 1</td>
-								</tr>
-							</tbody>
-						</table>
+      <div class="navbar-custom shadow">
+        <div class="container">
+          <div class="row">
+            <div id="navigation">
+              <!-- Navigation Menu-->
+              <ul class="navigation-menu col-md-10">
 
-						<div class="now-playing collapse" id="playing-now">
-							<table class="table">
-								<tbody>
-									<tr>
-										<td>Ajax <p>vs</p> AZ Alkmaar</td>
-										<td>18:00</td>
-									</tr>
-									<tr>
-										<td class="cup-name">Eredivisive</td>
-									</tr>
-									<tr>
-										<td>Tusker <p>vs</p> Mathare</td>
-										<td>18:00</td>
-									</tr>
-									<tr>
-										<td class="cup-name">Kenyan League</td>
-									</tr>
-								</tbody>
-							</table>
 
-						</div>
-						<div class="playing-collapse" data-toggle="collapse" data-target="#playing-now">
-							<i class="fa fa-sort-down fa-lg fa-inverse" aria-hidden="true"></i>
-						</div>
+                <li class="active"> <a href="index.html"><em class="ti-home"></em> <span>Sports</span> </a> </li>
+                <li class="has-submenu">
+                  <a href="#popular"><em class="ti-cut"></em> <span>Live Games</span> </a>
+                </li>
+                <li class="has-submenu">
+                  <a href="#"><em class="ti-announcement"></em> <span> Live Score </span> </a>
+                </li>
+                <li class="has-submenu">
+                  <a href="#"><em class="ti-layout-list-thumb"></em> <span> Leagues </span> </a>
+                </li>
+                <li class="has-submenu">
+                  <a href="#"><em class="ti-layout-list-thumb"></em> <span> TIPS </span> </a>
+                </li>
+                <li class="has-submenu">
+                  <a href="#"><em class="ti-layout-list-thumb"></em> <span> </span> </a>
+                </li>
+              </ul>
 
-						<h2 class="side-title">Tournaments</h2>
 
-						<div class="title-line">
-							<div class="side-line"></div>
-							<div class="circle"></div>
-						</div>
-						<table class="table">
-							<tbody>
-								<tr>
-									<td>International</td>
-								</tr>
-								<tr>
-									<td class="cup-name">UEFA</td>
-								</tr>
-								<tr>
-									<td class="cup-name">EUROPA</td>
-								</tr>
-								<tr>
-									<td>England/Premier League</td>
-								</tr>
-								<tr>
-									<td class="cup-name">EPL</td>
-								</tr>
-								<tr>
-									<td class="cup-name">FA Cup</td>
-								</tr>
-								<tr>
-									<td>Spain/Laliga</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Super ligi</td>
-								</tr>
 
-								<tr>
-									<td>Italy/Seria A</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Coppa Italia</td>
-								</tr>
-								<tr>
-									<td>others</td>
-								</tr>
-								<tr>
-									<td class="cup-name">thier cups</td>
-								</tr>
-								<tr>
-									<td>others</td>
-								</tr>
-								<tr>
-									<td class="cup-name">thier cups</td>
-								</tr>
-							</tbody>
-						</table>
+              <!-- End navigation menu  -->
+            </div>
+          </div>
+        </div>
+      </div>
 
-						<div class="collapse" id="tournaments">
-							<table class="table">
-								<tbody>
-									<tr>
-										<td>others</td>
-									</tr>
-									<tr>
-										<td class="cup-name">thier cups</td>
-									</tr>
-									<tr>
-										<td>others</td>
-									</tr>
-									<tr>
-										<td class="cup-name">thier cups</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
 
-						<div class="tournaments-collapse" data-toggle="collapse" data-target="#tournaments">
-							<i class="fa fa-sort-down fa-lg fa-inverse" aria-hidden="true"></i>
-						</div>
 
-						<h2 class="side-title">Top Teams</h2>
+    </header>
+    <!-- Navigation ends -->
 
-						<div class="title-line">
-							<div class="side-line"></div>
-							<div class="circle"></div>
-						</div>
-						<table class="table">
-							<tbody>
-								<tr>
-									<td>Liverpool</td>
-								</tr>
-								<tr>
-									<td class="cup-name">EPL</td>
-								</tr>
-								<tr>
-									<td>Barcelona</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Laliga</td>
-								</tr>
-								<tr>
-									<td>Juventus</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Seria A</td>
-								</tr>
-								<tr>
-									<td>PSG</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Ligue 1</td>
-								</tr>
-								<tr>
-									<td>Bayern Munich</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Bundesliga</td>
-								</tr>
-								<tr>
-									<td>Real Madrid</td>
-								</tr>
-								<tr>
-									<td class="cup-name">Ligue 1</td>
-								</tr>
-							</tbody>
-						</table>
 
-						<div class="collapse" id="teams">
-							<table class="table">
-								<tbody>
-									<tr>
-										<td>Tottenham</td>
-									</tr>
-									<tr>
-										<td class="cup-name">Epl</td>
-									</tr>
-									<tr>
-										<td>Chelsea</td>
-									</tr>
-									<tr>
-										<td class="cup-name">Epl</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
+    <div class="wrapper">
 
-						<div class="teams-collapse" data-toggle="collapse" data-target="#teams">
-							<i class="fa fa-sort-down fa-lg fa-inverse" aria-hidden="true"></i>
-						</div>
+      <div class="container">
+        <div class="row">
+          <div class="container">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-					</div>
-				</div>
-				<!--End of Side Information-->
 
-				<!--Start of Center-->
-				<div class="col-lg-12 col-md-16 col-sm-16">
-					<div class="player"></div>
-					<div class="vcenter-lines">
-						<div class="v-lines"></div>
-					</div>
-					<div class="center-table">
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
 
-						<table class="table">
-							<thead>
-								<tr>
-									<th>
-										<h2 class="center-title">England / Premier League</h2>
-									</th>
-									<th>1</th>
-									<th>X</th>
-									<th>2</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Man United <div>vs</div> Chelsea</td>
-									<br> <br>
-									<td>(1)<br><button type="button" class="btn">2.57</button></td>
-									<td>(x)<br><button type="button" class="btn">2.15</button></td>
-									<td>(2)<br><button type="button" class="btn">2.80</button></td>
-									<td><br><button type="button" color="red" class="btn-more">more</button></td>
-								</tr>
-								<tr>
-									<td>Man City <div>vs</div> Tottenham</td>
-									<br> <br>
-									<td>(1)<br><button type="button" class="btn">2.50</button></td>
-									<td>(x)<br><button type="button" class="btn">2.16</button></td>
-									<td>(2)<br><button type="button" class="btn">2.85</button></td>
-									<td><br><button type="button" color="red" class="btn-more">more</button></td>
-								</tr>
-							</tbody>
-						</table>
+                <div class="item active">
+                  <img src="assets/images/bg.png" alt="">
+                  <div class="carousel-caption">
+                    Highlights
+                  </div>
+                </div>
+                <!-- End Item -->
 
-						<table class="table">
-							<thead>
-								<tr>
-									<th>
-										<h2 class="center-title">Germany / Bundesliga</h2>
-									</th>
-									<th>1</th>
-									<th>X</th>
-									<th>2</th>
+                <div class="item">
+                  <img src="assets/images/bg.png" alt="">
+                  <div class="carousel-caption">
+                    Highlights
+                  </div>
+                </div>
+                <!-- End Item -->
 
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Hertha <div>vs</div> Dortmund</td>
-									<br>
-									<td>(1)<br><button type="button" class="btn">2.25</button></td>
-									<td>(x)<br><button type="button" class="btn">3.05</button></td>
-									<td>(2)<br><button type="button" class="btn">1.05</button></td>
-									<td><br><button type="button" color="red" class="btn-more">more</button></td>
-								</tr>
-								<tr>
-									<td>Mainz <div>vs</div> SC Freiburg</td>
-									<br> <br>
-									<td>(1)<br><button type="button" class="btn">1.25</button></td>
-									<td>(x)<br><button type="button" class="btn">2.05</button></td>
-									<td>(2)<br><button type="button" class="btn">3.00</button></td>
-									<td><br><button type="button" color="red" class="btn-more">more</button></td>
-								</tr>
-								<tr>
-									<td>FC Koln <div>vs</div> Union Berlin</td>
-									<br> <br>
-									<td>(1)<br><button type="button" class="btn">2.05</button></button>
-									</td>
-									<td>(x)<br><button type="button" class="btn">2.25</button></td>
-									<td>(2)<br><button type="button" class="btn">2.65</button></td>
-									<td><br><button type="button" color="red" class="btn-more">more</button></td>
-								</tr>
-							</tbody>
-						</table>
+                <div class="item">
+                  <img src="assets/images/bg.png" alt="">
+                  <div class="carousel-caption">
+                    Highlights
+                  </div>
+                </div>
+                <!-- End Item -->
 
-						<table class="table">
-							<thead>
-								<tr>
-									<th>
-										<h2 class="center-title">Spain/Laliga</h2>
-									</th>
-									<th>1</th>
-									<th>X</th>
-									<th>2</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Eibar <div>vs</div> Getafe</td>
-									<br> <br>
-									<td>(1)<br><button type="button" class="btn">1.58</button></td>
-									<td>(x)<br><button type="button" class="btn">2.50</button></td>
-									<td>(2)<br><button type="button" class="btn">2.00</button></td>
-									<td><br><button type="button" color="red" class="btn-more">more</button></td>
-								</tr>
-								<tr>
-									<td>Granada <div>vs</div> Cadiz</td>
-									<br> <br>
-									<td>(1)<br><button type="button" class="btn">1.8</button></td>
-									<td>(x)<br><button type="button" class="btn">1.8</button></td>
-									<td>(2)<br><button type="button" class="btn">1.8</button></td>
-									<td><br><button type="button" color="red" class="btn-more">more</button></td>
-								</tr>
-								<tr>
-									<td>Alves <div>vs</div> Valencia</td>
-									<br> <br>
-									<td>(1)<br><button type="button" class="btn">1.8</button></button>
-									</td>
-									<td>(x)<br><button type="button" class="btn">1.8</button></td>
-									<td>(2)<br><button type="button" class="btn">1.8</button></td>
-									<td><br><button type="button" color="red" class="btn-more">more</button></td>
-								</tr>
-							</tbody>
-						</table>
+                <div class="item">
+                  <img src="assets/images/bg.png" alt="">
+                  <div class="carousel-caption">
+                    Highlights
+                  </div>
+                </div>
+                <!-- End Item -->
+              </div>
+              <!-- End Carousel Inner -->
 
-					</div>
-				</div>
-				<!--End of Center-->
 
-				<<!--Start of BetSlip-->
-					<div class=" col-lg-6 col-md-24 col-sm-24">
-						<div class="calculating">
-							<ul class="nav nav-tabs">
-								<li class="active"><a href="#tab-1">Singles</a></li>
-								<li><a href="#tab-2">Doubles</a></li>
-							</ul>
-							<div class="tab-content">
-								<div id="tab-1" class="tab-pane fade in active">
+              <!-- <ul class="nav nav-pills nav-justified ">
+                <li data-slide-to="0"><a href="#popular">Football<small>FootBall
+                      Betting</small></a></li>
+                <li data-slide-to="3"><a href="#ending">BasketBall<small>BasketBall
+                      Betting</small></a></li>
+                <li data-slide-to="3"><a href="#popular">Tennis<small>Tennis
+                      Betting</small></a></li>
+                <li data-slide-to="3"><a href="#popular">Rugby<small>Rugby
+                      Betting</small></a></li>
+              </ul> -->
+            </div>
+            <!-- End Carousel -->
+          </div>
+          <!-- /col 12 -->
+        </div>
 
-									<div class="singles">
-										<p>Man United</p>
-										<p><em>Match result:</em> <span class="bet-result">Man United to <span
-													class="main-color">WIN</span></span>
-										</p>
-										<p><em>Price:</em> <span class="main-color">4.5</span></p>
-									</div>
-									<div class="singles">
-										<p>Man City</p>
-										<p>Match result</p>
-										<p><em>Total kills:</em> <span class="bet-result">Down <span class="main-color">UNDER
-													45</span></span>
-										</p>
-										<p><em>Price:</em> <span class="main-color">12.5</span></p>
-									</div>
-									<div class="singles-2">
-										<form class="form-inline">
-											<label for="exampleInputName2">Total price <span class="main-color">8.325</span></label>
-											<input type="text" class="form-control" id="exampleInputName2">
-										</form>
-									</div>
-									<div class="singles">
-										<p>Total stake:<span class="main-color pull-right">10.25</span></p>
-										<p>Potentional return:<span class="main-color pull-right">10.25</span></p>
-									</div>
-									<div class="btn-group">
-										<button type="button" class="btn">Remove all</button>
-										<button type="button" class="btn" data-toggle="modal" data-target="#success-modal">Place
-											bet</button>
-									</div>
-								</div>
-								<div id="tab-2" class="tab-pane fade">
-									<h3>None Selected</h3>
-									<p>Select Doubles</p>
-								</div>
-							</div>
-						</div>
-					</div>
-			</div>
-		</div>
-		</div>
-	</section>
+        <div class="row">
+          <div class="col-md-12" style="height:10px;"></div>
+        </div>
 
-	<!--Social Section-->
-	<section class="social-icons">
-		<br>
-		<footer>
-			<div class="sm">
-				<a href="#"><em class="fab fa-facebook-f"></em></a>
-				<a href="#"><em class="fab fa-twitter"></em></a>
-				<a href="#"><em class="fab fa-instagram"></em></a>
-				<a href="#"><em class="fab fa-youtube"></em></a>
-				<a href="#"><em class="fab fa-linkedin-in"></em></a>
-				<a href="#"><em class="fab fa-behance"></em></a>
-			</div>
-		</footer>
-	</section>
-	<!--Social Section-->
+        <!-- Start of Row -->
+        <div class="row">
+          <div class="col-md-3">
 
-	<div class="modal fade" id="success-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
-		aria-hidden="true" style="display: none;">
-		<div class="modal-dialog">
-			<div class="loginmodal-container">
-				<h3>You successfully placed your bet, thanks!</h3><br>
-				<button data-dismiss="modal" class="modal-button btn-success" style="width: 60%;margin: 0 20%;">OK</button>
-			</div>
-		</div>
-	</div>
+            <div class="widget categories b-b-0">
+              <!-- /widget heading -->
+              <div class="widget-heading">
+                <h3 class="widget-title text-dark">
+                  FootBall
+                </h3>
+                <div class="clearfix"></div>
+              </div>
+              <div class="widget-body">
 
-	<!--Start Of Scripts-->
-	<!--PWA-->
-	<script src="js/main.js"></script>
-	<!--PWA-->
-	<!-- Tabs -->
-	<script>
-		$(document).ready(function () {
-			$(".nav-tabs a").click(function () {
-				$(this).tab('show');
-			});
-		});
-	</script>
-	<!-- Side-info toggle icon -->
-	<script>
-		$(document).ready(function () {
-			$("#playing-now").on("hide.bs.collapse", function () {
-				$(".playing-collapse").html('<i class="fa fa-sort-down fa-lg fa-inverse"></i>');
-			});
-			$("#playing-now").on("show.bs.collapse", function () {
-				$(".playing-collapse").html('<i class="fa fa-sort-asc fa-lg fa-inverse"></i>');
-			});
-		});
-		$(document).ready(function () {
-			$("#tournaments").on("hide.bs.collapse", function () {
-				$(".tournaments-collapse").html('<i class="fa fa-sort-down fa-lg fa-inverse"></i>');
-			});
-			$("#tournaments").on("show.bs.collapse", function () {
-				$(".tournaments-collapse").html('<i class="fa fa-sort-asc fa-lg fa-inverse"></i>');
-			});
-		});
-		$(document).ready(function () {
-			$("#teams").on("hide.bs.collapse", function () {
-				$(".teams-collapse").html('<i class="fa fa-sort-down fa-lg fa-inverse"></i>');
-			});
-			$("#teams").on("show.bs.collapse", function () {
-				$(".teams-collapse").html('<i class="fa fa-sort-asc fa-lg fa-inverse"></i>');
-			});
-		});
-		/*Line width*/
-		$(window).resize(function () {
-			$w = $(window).outerWidth()
-			$('.header-line').css({
-				width: $w - 60,
-				marginLeft: -($w - 60) / 2,
-				left: $w / 2
-			});
-			$('.line').css({
-				width: $w - 92
-			});
-			$('.main-content').css({
-				minHeight: $(window).outerHeight() - $('header').outerHeight()
-			});
-		});
-		$(window).resize();
-	</script>
+                <!-- Sidebar navigation -->
+                <ul class="nav sidebar-nav">
+                  <li class="dropdown">
+                    <button class="accordion">General / Highlights</button>
+                    <div class="accordionpanel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                  </li>
+                  <li class="dropdown">
 
+                    <button class="accordion">England</button>
+                    <div class="accordionpanel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">Laliga</button>
+                    <div class="accordionpanel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">Bundesliga</button>
+                    <div class="accordionpanel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">Seria A</button>
+                    <div class="accordionpanel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">Laliga</button>
+                    <div class="accordionpanel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <button class="accordion">FAVORITES</button>
+                    <div class="accordionpanel">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                  </li>
+                  </li>
+                  </li>
+                </ul>
+                <!-- Sidebar divider -->
+              </div>
+            </div>
+
+            <div class="widget categories b-b-0">
+              <!-- /widget heading -->
+              <div class="widget-heading">
+                <h3 class="widget-title text-dark">
+                  SPORT
+                </h3>
+                <div class="clearfix"></div>
+              </div>
+              <div class="widget-body">
+                <!-- Sidebar navigation -->
+                <ul class="nav sidebar-nav">
+                  <li class="dropdown">
+                  <li class="dropdown">
+                    <button class="accordion">BasketBall</button>
+                    <div class="accordionpanel">
+                      <form class="form-inline">
+                        <label>Select : </label>
+                        <select class="form-control">
+                          <option disabled selected hidden>Country</option>
+                          <option>USA/NBA</option>
+                          <option>USA/WNBA</option>
+                          <option>Spain</option>
+                          <option>Russia</option>
+
+                        </select>
+                      </form>
+                    </div>
+                  </li>
+                  <button class="accordion">Rugby</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Tennis</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Formula 1</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Ice Rugby</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Volleyball</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </ul>
+                <!-- Sidebar divider -->
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <ul class="nav nav-tabs responsive-tabs navbar-dark bg-primary" id="myTab">
+              <li class="active"><a data-toggle="tab" href="#popular"><i class="far fa-futbol"></i>FootBall
+                </a> </li>
+              <li class=""><a data-toggle="tab" href="#ending"><i class="fas fa-basketball-ball"></i> BacketBall</a>
+              </li>
+              <li class=""><a data-toggle="tab" href="#online"><i class="fas fa-table-tennis"></i>Tennis</a> </li>
+              <li class=""><a data-toggle="tab" href="#atStore"><i class="fas fa-football-ball"></i>Rugby</a> </li>
+            </ul>
+
+            <!-- Start: FootBall -->
+            <div class="tab-content clearfix" id="myTabContent">
+
+              <!-- Start: FootBall -->
+              <div id="popular" class="tab-pane counties-pane active animated fadeIn">
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">England / Premier league</h2>
+                      <td>Man United <div>vs</div>Chelsea</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">Germany / Bundesliga</h2>
+                      <td>LA Lakers <div>vs</div>Warrios</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">Spain / Laliga</h2>
+                      <td>Barcelona <div>vs</div>R Madrid</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+              <!-- end: FootBall -->
+
+              <!-- Start: BasketBall -->
+              <div id="ending" class="tab-pane counties-pane animated fadeIn">
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">USA / NBA</h2>
+                      <td>LA Lakers <div>vs</div>Warrios</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-md-12" style="height:20px;"></div>
+                <!-- end: coupon wrap -->
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">Spain</h2>
+                      <td>LA Lakers <div>vs</div>Warrios</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-md-12" style="height:20px;"></div>
+                <!-- end: coupon wrap -->
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">Russia</h2>
+                      <td>LA Lakers <div>vs</div>Warrios</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">USA / NBA</h2>
+                      <td>LA Lakers <div>vs</div>Warrios</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+              </div>
+              <!----------     End: BasketBall -------------------------------------->
+
+              <!---------- Start: Tennis ------------->
+              <div class="panel panel-primary">
+                <table class="table table-hover table-sm table-responsive">
+                  <thead>
+                    <h2 class="center-title">USA</h2>
+                    <td>LA L<div>vs</div>War</td>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="col">Three Way
+                      </th>
+                      <th scope="col"></th>
+                      <th scope="col"></th>
+                    </tr>
+                    <tr>
+                      <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                        <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                          class="btn btn-primary">(2)<br>2.25</button>
+                      </th>
+                      <td></td>
+                      <td>
+                        <button type="button" class="btn btn-success"><br>More</button></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div id="online" class="tab-pane counties-pane animated fadeIn">
+
+                <!-- end: coupon wrap -->
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">Spain</h2>
+                      <td>LA Lakers <div>vs</div>Warrios</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="col-md-12" style="height:20px;"></div>
+                <!-- end: coupon wrap -->
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">SA</h2>
+                      <td>LA Lakers <div>vs</div>Warrios</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="col-md-12" style="height:20px;"></div>
+                <!-- end: coupon wrap -->
+
+                <div class="panel panel-primary">
+                  <table class="table table-hover table-sm table-responsive">
+                    <thead>
+                      <h2 class="center-title">Russia</h2>
+                      <td>LA Lakers <div>vs</div>Warrios</td>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="col">Three Way
+                        </th>
+                        <th scope="col"></th>
+                        <th scope="col"></th>
+                      </tr>
+                      <tr>
+                        <th scope="row"><button type="button" class="btn btn-primary">(1)<br>2.25</button>
+                          <button type="button" class="btn btn-primary">(x)<br>2.25</button> <button type="button"
+                            class="btn btn-primary">(2)<br>2.25</button>
+                        </th>
+                        <td></td>
+                        <td>
+                          <button type="button" class="btn btn-success"><br>More</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="col-md-12" style="height:20px;"></div>
+                <!-- end: coupon wrap -->
+              </div>
+              <!----------     End: Tennis -------------------------------------->
+
+
+              <!--Start : Rugby--------->
+              <div id="#rugby" class="tab-pane counties-pane animated fadeIn">
+                <div class="coupon-wrapper row featured">
+                  <div class="coupon-data col-sm-2 text-center">
+                    <div class="savings text-center">
+                      <div>
+                        <div class="large">25%</div>
+                        <div class="small">off</div>
+                        <div class="type">Coupon</div>
+                      </div>
+                    </div>
+                    <!-- end:Savings -->
+                  </div>
+                  <!-- end:Coupon data -->
+                  <div class="coupon-contain col-sm-7">
+                    <ul class="list-inline list-unstyled">
+                      <li class="sale label label-pink">Sale</li>
+                      <li class="popular label label-success">100% success</li>
+                      <li><span class="verified  text-success"><em class="ti-face-smile"></em>Verified</span> </li>
+                      <li><span class="used-count">78 used</span> </li>
+                    </ul>
+                    <h4 class="coupon-title"><a href="#"></a></h4>
+                    <p data-toggle="collapse" data-target="6"></p>
+                    <p id="6" class="collapse"> </p>
+                    <ul class="coupon-details list-inline">
+                      <li class="list-inline-item">
+                        <div class="btn-group" role="group" aria-label="...">
+                          <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                            data-placement="left" title="" data-original-title="It worked"><em class="ti-thumb-up"></em>
+                          </button>
+                          <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                            data-placement="top" title="" data-original-title="It didn't work"><em
+                              class="ti-thumb-down"></em> </button>
+                        </div>
+                        <!-- end:Btn group -->
+                      </li>
+                      <li class="list-inline-item"></li>
+                      <li class="list-inline-item"><a href="#"></a> </li>
+                    </ul>
+                    <!-- end:Coupon details -->
+                  </div>
+                  <!-- end:Coupon cont -->
+                  <div class="button-contain col-sm-3 text-center">
+                    <p class="btn-code"><span class="btn-hover">Bet Now</span> </p>
+                    <div class="btn-group" role="group" aria-label="...">
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-star"></em>
+                      </button>
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-email"></em> </button>
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-mobile"></em> </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- end: coupon wrap -->
+                <div class="coupon-wrapper row">
+                  <div class="coupon-data col-sm-2 text-center">
+                    <div class="savings text-center">
+                      <div>
+                        <div class="large">15%</div>
+                        <div class="small">off</div>
+                        <div class="type"></div>
+                      </div>
+                    </div>
+                    <!-- end:Savings -->
+                  </div>
+                  <!-- end:Coupon data -->
+                  <div class="coupon-contain col-sm-7">
+                    <ul class="list-inline list-unstyled">
+                      <li class="promo label label-pink"> </li>
+                      <li class="sale label label-warning"> </li>
+                      <li><span class="used-count"> </span> </li>
+                    </ul>
+                    <h4 class="coupon-title"><a href="#"> </a></h4>
+                    <p data-toggle="collapse" data-target="#7"> </p>
+                    <p id="7" class="collapse"> </p>
+                    <ul class="coupon-details list-inline">
+                      <li class="list-inline-item">
+                        <div class="btn-group" role="group" aria-label="...">
+                          <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                            data-placement="left" title="" data-original-title="It worked"><em class="ti-thumb-up"></em>
+                          </button>
+                          <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                            data-placement="top" title="" data-original-title="It didn't work"><em
+                              class="ti-thumb-down"></em> </button>
+                        </div>
+                        <!-- end:Btn group -->
+                      </li>
+                      <li class="list-inline-item"> </li>
+                      <li class="list-inline-item"><a href="#"></a> </li>
+                    </ul>
+                    <!-- end:Coupon details -->
+                  </div>
+                  <!-- end:Coupon cont -->
+                  <div class="button-contain col-sm-3 text-center">
+                    <p class="btn-code"><span class="btn-hover">Bet Now</span> </p>
+                    <div class="btn-group" role="group" aria-label="...">
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-star"></em>
+                      </button>
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-email"></em> </button>
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-mobile"></em> </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- end: coupon wrap -->
+                <div class="coupon-wrapper row">
+                  <div class="coupon-data col-sm-2 text-center">
+                    <div class="savings text-center">
+                      <div>
+                        <div class="large"> </div>
+                        <div class="small"> </div>
+                        <div class="type"> </div>
+                      </div>
+                    </div>
+                    <!-- end:Savings -->
+                  </div>
+                  <!-- end:Coupon data -->
+                  <div class="coupon-contain col-sm-7">
+                    <ul class="list-inline list-unstyled">
+                      <li class="sale label label-pink"> </li>
+                      <li><span class="used-count"> </span> </li>
+                    </ul>
+                    <h4 class="coupon-title"><a href="#"> </a></h4>
+                    <p data-toggle="collapse" data-target="#8"> </p>
+                    <p id="8" class="collapse"> </p>
+                    <ul class="coupon-details list-inline">
+                      <li class="list-inline-item">
+                        <div class="btn-group" role="group" aria-label="...">
+                          <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                            data-placement="left" title="" data-original-title="It worked"><em class="ti-thumb-up"></em>
+                          </button>
+                          <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                            data-placement="top" title="" data-original-title="It didn't work"><em
+                              class="ti-thumb-down"></em> </button>
+                        </div>
+                        <!-- end:Btn group -->
+                      </li>
+                      <li class="list-inline-item"> </li>
+                      <li class="list-inline-item"><a href="#"> </a> </li>
+                    </ul>
+                    <!-- end:Coupon details -->
+                  </div>
+                  <!-- end:Coupon cont -->
+                  <div class="button-contain col-sm-3 text-center">
+                    <p class="btn-code"><span class="btn-hover">Bet Now</span> </p>
+                    <div class="btn-group" role="group" aria-label="...">
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-star"></em>
+                      </button>
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-email"></em> </button>
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-mobile"></em> </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- end: coupon wrap -->
+                <div class="coupon-wrapper row">
+                  <div class="coupon-data col-sm-2 text-center">
+                    <div class="savings text-center">
+                      <div>
+                        <div class="large"> </div>
+                        <div class="small"> </div>
+                        <div class="type"> </div>
+                      </div>
+                    </div>
+                    <!-- end:Savings -->
+                  </div>
+                  <!-- end:Coupon data -->
+                  <div class="coupon-contain col-sm-7">
+                    <ul class="list-inline list-unstyled">
+                      <li class="promo label label-pink"> </li>
+                      <li class="sale label label-warning"> </li>
+                      <li><span class="used-count"> </span> </li>
+                    </ul>
+                    <h4 class="coupon-title"><a href="#"> </a></h4>
+                    <p data-toggle="collapse" data-target="#more-4"> </p>
+                    <p id="more-4" class="collapse"> </p>
+                    <ul class="coupon-details list-inline">
+                      <li class="list-inline-item">
+                        <div class="btn-group" role="group" aria-label="...">
+                          <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                            data-placement="left" title="" data-original-title="It worked">
+
+                          </button>
+                          <button type="button" class="btn btn-default btn-xs" data-toggle="tooltip"
+                            data-placement="top" title="" data-original-title="It didn't work"><em
+                              class="ti-thumb-down"></em> </button>
+                        </div>
+                        <!-- end:Btn group -->
+                      </li>
+                      <li class="list-inline-item"> </li>
+                      <li class="list-inline-item"><a href="#"> </a> </li>
+                    </ul>
+                    <!-- end:Coupon details -->
+                  </div>
+                  <!-- end:Coupon cont -->
+                  <div class="button-contain col-sm-3 text-center">
+                    <p class="btn-code"><span class="btn-hover">Bet Now</span> </p>
+                    <div class="btn-group" role="group" aria-label="...">
+                      <button type="button" class="btn btn-default btn-xs">
+
+                      </button>
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-email"></em> </button>
+                      <button type="button" class="btn btn-default btn-xs"><em class="ti-mobile"></em> </button>
+                    </div>
+                  </div>
+                </div>
+                <!-- end: coupon wrap -->
+              </div>
+              <!--*---------Rugby------------>
+            </div>
+            <!-- end: Tab content -->
+            <div class="clearfix"></div>
+
+            <!---------Stories------------------->
+            <div class="widget">
+              <!-- /widget heading -->
+              <div class="widget-heading">
+                <h3 class="widget-title text-dark">
+                  Top Stories
+                </h3>
+                <div class="widget-widgets"> <a href="#">View More Stories <span class="ti-angle-right"></span></a>
+                </div>
+                <div class="clearfix"></div>
+              </div>
+              <div class="widget-body">
+                <div class="row">
+                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 thumb">
+                    <div class="thumb-inside">
+                      <a class="thumbnail" href="#"> <img class="img-responsive" src="http://placehold.it/240x240"
+                          alt=""> </a> <span class="favorite"><a href="#" data-toggle="tooltip" data-placement="left"
+                          title="" data-original-title="Save store"><em class="ti-heart"></em></a></span>
+                    </div>
+                    <div class="store_name text-center">
+                      <h5>CrownBet</h5>
+                    </div>
+                  </div>
+                  <!-- /thumb -->
+                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 thumb">
+                    <div class="thumb-inside">
+                      <a class="thumbnail" href="#"> <img class="img-responsive" src="http://placehold.it/240x240"
+                          alt=""> </a> <span class="favorite"><a href="#" data-toggle="tooltip" data-placement="left"
+                          title="" data-original-title="Save store"><em class="ti-heart"></em></a></span>
+                    </div>
+                    <div class="store_name text-center">
+                      <h5>Sportsbet</h5>
+                    </div>
+                  </div>
+                  <!-- /thumb -->
+                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 thumb">
+                    <div class="thumb-inside">
+                      <a class="thumbnail" href="#"> <img class="img-responsive" src="http://placehold.it/240x240"
+                          alt=""> </a> <span class="favorite"><a href="#" data-toggle="tooltip" data-placement="left"
+                          title="" data-original-title="Save store"><em class="ti-heart"></em></a></span>
+                    </div>
+                    <div class="store_name text-center">
+                      <h5>Luxbet</h5>
+                    </div>
+                  </div>
+                  <!-- /thumb -->
+                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 thumb">
+                    <div class="thumb-inside">
+                      <a class="thumbnail" href="#"> <img class="img-responsive" src="http://placehold.it/240x240"
+                          alt=""> </a> <span class="favorite"><a href="#" data-toggle="tooltip" data-placement="left"
+                          title="" data-original-title="Save store"><em class="ti-heart"></em></a></span>
+                    </div>
+                    <div class="store_name text-center">
+                      <h5>bet365</h5>
+                    </div>
+                  </div>
+                  <!-- /thumb -->
+                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 thumb">
+                    <div class="thumb-inside">
+                      <a class="thumbnail" href="#"> <img class="img-responsive" src="http://placehold.it/240x240"
+                          alt=""> </a> <span class="favorite"><a href="#" data-toggle="tooltip" data-placement="left"
+                          title="" data-original-title="Save store"><em class="ti-heart"></em></a></span>
+                    </div>
+                    <div class="store_name text-center">
+                      <h5>William HILL</h5>
+                    </div>
+                  </div>
+                  <!-- /thumb -->
+                  <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 thumb">
+                    <div class="thumb-inside">
+                      <a class="thumbnail" href="#"> <img class="img-responsive" src="http://placehold.it/240x240"
+                          alt=""> </a> <span class="favorite"><a href="#" data-toggle="tooltip" data-placement="left"
+                          title="" data-original-title="Save store"><em class="ti-heart"></em></a></span>
+                    </div>
+                    <div class="store_name text-center">
+                      <h5>Lad Brokes</h5>
+                    </div>
+                  </div>
+                  <!-- /thumb -->
+                </div>
+              </div>
+            </div>
+            <!-- end: Tab content -->
+          </div>
+
+          <div class="col-md-3">
+            <div class="widget categories b-b-0">
+              <!-- /widget heading -->
+              <div class="widget-heading">
+                <h3 class="widget-title text-dark">
+                  FootBall Leagues
+                </h3>
+                <div class="clearfix"></div>
+              </div>
+
+              <!-- Sidebar 2 -->
+              <div class="widget-body">
+                <ul class="nav sidebar-nav">
+                  <button class="accordion">Laliga</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Laliga</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Laliga</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Laliga</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Laliga</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                  <button class="accordion">Laliga</button>
+                  <div class="accordionpanel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                      labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                      laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </ul>
+                <!-- Sidebar divider -->
+
+              </div>
+            </div>
+
+            <div class="widget categories b-b-0">
+              <!-- /widget heading -->
+              <div class="widget-heading">
+                <h3 class="widget-title text-dark">
+                  Trending
+                </h3>
+                <div class="clearfix"></div>
+              </div>
+              <div class="row">
+                <div class="container">
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                      <div class="item active">
+                        <img src="assets/images/slider1.jpg" alt="">
+                        <div class="carousel-caption">
+                          Highlights
+                        </div>
+                      </div>
+                      <!-- End Item -->
+
+                      <div class="item">
+                        <img src="assets/images/slider2.jpg" alt="">
+                        <div class="carousel-caption">
+                          Highlights
+                        </div>
+                      </div>
+                      <!-- End Item -->
+
+                      <div class="item">
+                        <img src="assets/images/slider3.jpg" alt="">
+                        <div class="carousel-caption">
+                          Highlights
+                        </div>
+                      </div>
+                      <!-- End Item -->
+
+                      <div class="item">
+                        <img src="assets/images/slider4.jpg" alt="">
+                        <div class="carousel-caption">
+                          Highlights
+                        </div>
+                      </div>
+                      <!-- End Item -->
+                    </div>
+                    <!-- End Carousel Inner -->
+
+
+                    <!-- <ul class="nav nav-pills nav-justified ">
+                      <li data-slide-to="0"><a href="#popular">Football<small>FootBall
+                            Betting</small></a></li>
+                      <li data-slide-to="3"><a href="#ending">BasketBall<small>BasketBall
+                            Betting</small></a></li>
+                      <li data-slide-to="3"><a href="#popular">Tennis<small>Tennis
+                            Betting</small></a></li>
+                      <li data-slide-to="3"><a href="#popular">Rugby<small>Rugby
+                            Betting</small></a></li>
+                    </ul> -->
+                  </div>
+                  <!-- End Carousel -->
+                </div>
+                <!-- /col 12 -->
+              </div>
+
+            </div>
+
+          </div>
+          <!-- end col -->
+        </div>
+        <!-- End row -->
+      </div>
+      <section class="call-to-action">
+        <div class="container">
+          <div class="row explain_group">
+            <div class="col-md-4">
+              <a class="item" rel="nofollow" href="#">
+                <div class="box-icon"> <em class="bg-danger ti-search"></em> </div>
+                <div class="box-info">
+                  <h3>Search Bets</h3>
+                  <h4>Find best money-saving Bets.</h4>
+                  <div class="point"><em class="ti-check"></em><span>Find fresh Bets</span> </div>
+                  <div class="point"><em class="ti-check"></em><span>Top Bets & Offers</span> </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a class="item" rel="nofollow" href="#">
+                <div class="box-icon"> <em class="bg-info ti-shopping-cart-full"></em> </div>
+                <div class="box-info">
+                  <h3>Save your money</h3>
+                  <h4>Find best money-saving Bets.</h4>
+                  <div class="point"><em class="ti-check"></em><span>Find fresh Bets</span> </div>
+                  <div class="point"><em class="ti-check"></em><span>Top Bets & Offers</span> </div>
+                </div>
+              </a>
+            </div>
+            <div class="col-md-4">
+              <a class="item" rel="nofollow" href="#">
+                <div class="box-icon"> <em class="bg-purple ti-gift"></em> </div>
+                <div class="box-info">
+                  <h3>Earn your gifts</h3>
+                  <h4>Find best money-saving Bets.</h4>
+                  <div class="point"><em class="ti-check"></em><span>Find fresh Bets</span> </div>
+                  <div class="point"><em class="ti-check"></em><span>Top Bets & Offers</span> </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="newsletter-alert">
+        <div class="container text-center">
+          <div class="col-sm-12">
+            <div class="newsletter-form">
+              <h4><em class="ti-email"></em>Sign up for our weekly email newsletter with the best
+                money-saving bet tips.</h4>
+              <div class="input-group">
+                <input type="text" class="form-control input-lg" placeholder="Email"> <span class="input-group-btn">
+                  <button class="btn btn-danger btn-lg" type="button">
+                    Subscribe
+                  </button>
+                </span>
+              </div>
+              <p><small>We’ll never share your email address with a third-party.</small> </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end:Newsletter signup -->
+      <!-- Footer -->
+      <footer id="footer">
+        <div class="btmFooter">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1 text-center">
+                <ul class="list-inline list-unstyled">
+                  <li><a href="#">Kenya</a> </li>
+                  <li><a href="#">Uganda</a> </li>
+                  <li><a href="#">Tanzania</a> </li>
+                  <li><a href="#">Ethiopia</a> </li>
+
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-12 text-center m-t-20">
+              <p> <strong>
+                  Copyright 2020
+                </strong> <em class="ti-heart">
+                </em> <strong>
+                  by georgethedeveloper
+                </strong>
+              </p>
+            </div>
+            <!--Payment-->
+            <div class="col-sm-12 text-center m-t-30">
+              <ul class="pay-opt list-inline list-unstyled">
+                <li>
+                  <a href="#" title="#"> <img src="assets/images/payment/amz-icon.png" class="img-responsive" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="#"> <img src="assets/images/payment/ax-icon.png" class="img-responsive" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="#"> <img src="assets/images/payment/mb-icon.png" class="img-responsive" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="#"> <img src="assets/images/payment/mst-icon.png" class="img-responsive" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="#"> <img src="assets/images/payment/mstr-icon.png" class="img-responsive" alt="">
+                  </a>
+                </li>
+                <li>
+                  <a href="#" title="#"> <img src="assets/images/payment/paypal-icon.png" class="img-responsive" alt="">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!--Payment-->
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!---->
+  </div>
+
+  <!-- //wrapper -->
+  <!--FontAwesome-->
+  <script src="https://kit.fontawesome.com/8bbf7e7975.js" crossorigin="anonymous"></script>
+  <!--FontAwesome---->
+
+  <!--Script for accordion-->
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+  <!-- jQuery  -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/animsition.min.js"></script>
+  <script src="owl.carousel/owl.carousel.min.js"></script>
+  <!-- Kupon js -->
+  <script src="assets/js/kupon.js"></script>
+  <!-- navigation-->
+  <script>
+    $(document).ready(function () {
+      $('#myCarousel').carousel({
+        interval: 4000
+      });
+
+      var clickEvent = false;
+      $('#myCarousel').on('click', '.nav a', function () {
+        clickEvent = true;
+        $('.nav li').removeClass('active');
+        $(this).parent().addClass('active');
+      }).on('slid.bs.carousel', function (e) {
+        if (!clickEvent) {
+          var count = $('.nav').children().length - 1;
+          var current = $('.nav li.active');
+          current.removeClass('active').next().addClass('active');
+          var id = parseInt(current.data('slide-to'));
+          if (count == id) {
+            $('.nav li').first().addClass('active');
+          }
+        }
+        clickEvent = false;
+      });
+    });
+  </script>
 </body>
 
 </html>
